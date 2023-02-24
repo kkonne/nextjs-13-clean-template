@@ -52,6 +52,8 @@ Execute formatting via Prettier on all `.js`, `.jsx`, `.ts`, `.tsx` and `.json` 
 npm run pretty
 ```
 
+<br />
+
 > Test commands
 
 Prettifies, lints and builds production ready project if no errors are found
