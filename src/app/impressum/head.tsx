@@ -4,10 +4,10 @@ export default function Head() {
   return (
     <>
       <DefaultTags />
-      <title>&lt;app-name&gt;</title>
+      <title>&lt;app-name&gt; - Impressum</title>
       <meta
         name="description"
-        content="Welcome to <app-name>! Next.js 13.1 boilerplate project"
+        content="<app-name> - Impressum info"
       />
     </>
   );
