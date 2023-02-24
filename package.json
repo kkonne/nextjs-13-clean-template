@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pretty": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json}\"",
+    "test": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json}\" && next lint && next build"
   },
   "dependencies": {
     "@next/font": "^13.1.6",
@@ -16,6 +18,7 @@
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
+    "prettier": "^2.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.58.3",

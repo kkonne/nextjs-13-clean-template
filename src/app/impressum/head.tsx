@@ -5,10 +5,7 @@ export default function Head() {
     <>
       <DefaultTags />
       <title>&lt;app-name&gt; - Impressum</title>
-      <meta
-        name="description"
-        content="<app-name> - Impressum info"
-      />
+      <meta name="description" content="<app-name> - Impressum info" />
     </>
   );
 }
