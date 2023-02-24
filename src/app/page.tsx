@@ -1,10 +1,18 @@
+"use client";
 import Image from "next/image";
 import styles from "./page.module.scss";
 import SampleLogo from "public/assets/images/sample-logo.svg";
+import { useWindowDimensions } from "@/@hooks/window-height";
 
 export default function Home() {
+  const { height } = useWindowDimensions();
   return (
-    <main className={styles.main}>
+    <main
+      className={styles.main}
+      style={{
+        minHeight: `${height}px`,
+      }}
+    >
       <div className={styles.description}>
         <p>
           <code className={styles.code}>
@@ -18,7 +26,6 @@ export default function Home() {
               src={SampleLogo}
               alt="Sample Logo"
               className={styles.brandLogo}
-              width={100}
               height={24}
               priority
             />
